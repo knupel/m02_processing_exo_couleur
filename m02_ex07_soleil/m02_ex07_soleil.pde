@@ -33,7 +33,6 @@ void soleil(float pos_x, float pos_y, float rayon, float num) {
 }
 
 int couleur(float direction, float dist, float dist_max) {
-	
 	float hue = map(direction, 0, 2 *PI, 0, 360);
 	float saturation = map(dist,0,dist_max,0,100);
 	return color(hue,saturation,100);
