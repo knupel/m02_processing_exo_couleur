@@ -11,12 +11,11 @@ void mousePressed() {
   camaieu();
 }
 
-
 void camaieu() {
   int x = 0;
   int y = 0;
   int hue_ref = 0 ;
-  int max = 40;
+  int max = 25;
   float saturation = random(70,100);
   float brightness = random(30,60);
   while(x < width) {
